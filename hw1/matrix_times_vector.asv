@@ -1,0 +1,17 @@
+function [y] = matrix_times_vector(A, x)
+% Title: MATRIX_TIMES_VECTOR
+% Author: Robert George Phillips (rogphill@ucsc.edu)
+% Description: Multiplies a n x n matrix A by a n x 1 vector x. Outputs a 
+%              a n x 1 vector y.
+
+    % Check if matrix and array are compatible:
+    m = size(A);
+    n = size(x);
+    
+    if m(1) == m(2) == n(1) && n(2) ==1
+        
+    end
+
+    y = result;
+end
+
